@@ -1,0 +1,25 @@
+{
+  "name": "tinymodal",
+  "version": "1.0.0",
+  "description": "jquery tiny modal", 
+  "keywords": [
+    "tinymodalr",
+    "modal",
+    "popup"
+  ],
+  "author": "elclanrs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eHanlin/tinymodal.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies" :{
+  	"jquery": ">=1.11.0"
+  },
+  "main": "jquery.tinymodal.js"
+}
