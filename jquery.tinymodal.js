@@ -63,8 +63,8 @@
     $modal.on('click', function(e){ e.stopPropagation(); });
 
     if (o.clickOutside) $overlay.on('click', hide);
-
-    $('body').prepend($overlay.append($modal));
+	$('.tinymodal-overlay').remove();
+    $('body').append($overlay.append($modal));
     show();
   };
 
